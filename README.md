@@ -12,7 +12,7 @@ git clone https://github.com/Akihiki/ShardedHashMap.git
 ### Database Setup
 The project requires two PostgreSQL servers to mimic distribution across multiple sites. By default, these servers should be running on ports 5431 and 5432, respectively.
 
-The database schema consists of a single table named hashmaptable within the mapDB database. The table structure is as follows:
+The database schema consists of a single table named **hashmaptable** within the **mapDB** database. The table structure is as follows:
 
 . key: Primary key column for storing keys.
 . value: Column for storing corresponding values.
