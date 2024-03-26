@@ -1,8 +1,7 @@
-package org.example;
+package org.example.utils;
 
 import com.sun.net.httpserver.Headers;
-
-import java.io.InputStream;
+import org.example.utils.StatusCode;
 
 public record ResponseEntity(String body, Headers headers, StatusCode statusCode) {
     @Override

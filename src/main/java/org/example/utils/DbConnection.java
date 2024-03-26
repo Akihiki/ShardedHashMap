@@ -1,6 +1,6 @@
-package org.example.repository;
+package org.example.utils;
 
-import org.example.Constants;
+import org.example.utils.Constants;
 
 import java.sql.*;
 

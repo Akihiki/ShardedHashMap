@@ -1,4 +1,4 @@
-package org.example;
+package org.example.utils;
 
 public class Constants {
     public static String url = "jdbc:postgresql://localhost:5431/mapDB";

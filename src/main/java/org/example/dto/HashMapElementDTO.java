@@ -1,13 +1,13 @@
-package org.example;
+package org.example.dto;
 
-public class RequestType {
+public class HashMapElementDTO {
     String key;
     String value;
 
-    public RequestType() {
+    public HashMapElementDTO() {
     }
 
-    public RequestType(String key, String value) {
+    public HashMapElementDTO(String key, String value) {
         this.key = key;
         this.value = value;
     }
@@ -30,7 +30,7 @@ public class RequestType {
 
     @Override
     public String toString() {
-        return "RequestType reda {" +
+        return "RequestType  {" +
                 "key='" + key + '\'' +
                 ", value=" + value +
                 '}';

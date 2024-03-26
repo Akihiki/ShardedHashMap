@@ -1,4 +1,4 @@
-package org.example;
+package org.example.utils;
 
 
 public enum StatusCode {
@@ -7,6 +7,7 @@ public enum StatusCode {
     ACCEPTED(202),
 
     BAD_REQUEST(400),
+    INTERNAL_SERVER_ERROR(500),
     METHOD_NOT_ALLOWED(405);
 
     public int getCode() {
